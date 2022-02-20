@@ -10,6 +10,11 @@ from openpyxl import load_workbook
 TO DO:
 
 LINK GUI TO BACKEND
+LINK TREEVIEW TO DB
+ADD ACTION BUTTONS
+PLAY SIREN FUNCTION
+PAY SOS SIREN FUNCTION
+
 """
 
 # This Function deletes all entries on the DB and stops all scheduled alarms

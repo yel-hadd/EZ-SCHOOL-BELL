@@ -25,7 +25,7 @@ tree.heading("START_TIME", text="Heure de début", anchor=W)
 tree.heading("DESCRIPTION", text="Description", anchor=W)
 
 
-"""
+
 tree.insert(parent='', index='end', iid=0, text='', values=("1", "Lundi", "00:00", "test alarm"))
 tree.insert(parent='', index='end', iid=1, text='', values=("2", "Mardi", "00:00", "test alarm"))
 tree.insert(parent='', index='end', iid=2, text='', values=("3", "Mardi", "00:00", "test alarm"))
@@ -39,7 +39,7 @@ tree.insert(parent='', index='end', iid=9, text='', values=("1", "Lundi", "00:00
 tree.insert(parent='', index='end', iid=10, text='', values=("1", "Lundi", "00:00", "test alarm"))
 tree.insert(parent='', index='end', iid=11, text='', values=("1", "Lundi", "00:00", "test alarm"))
 tree.insert(parent='', index='end', iid=12, text='', values=("1", "Lundi", "00:00", "test alarm"))
-"""
+
 
 
 
@@ -51,9 +51,19 @@ tree.place(x=29, y=288.36, width=602.89, height=211.68)
 
 vsb = ttk.Scrollbar(root, orient="vertical", command=tree.yview)
 tree.configure(yscrollcommand=vsb.set)
+
+add_frame = Frame(root)
+
+
+nl = Label(add_frame, text="Name")
+nl.grid(row=0, column=0)
+
+il = Label(add_frame, text="ID")
+il.grid(row=0, column=0)
+
 vsb.place(x=614, y=289, height=210)
 
 tree.configure(yscrollcommand=vsb.set)
 
-
+add_frame.place(x=50, y=50)
 root.mainloop()
