@@ -10,6 +10,6 @@ to run the program please execute
 python3 gui.py
 
 ## Program preview 1
-https://github.com/yaseen-ai/EZ-SCHOOL-BELL/blob/main/ez.mp4
+https://user-images.githubusercontent.com/82560247/196038160-785fa49d-77e7-4d25-9838-c7de8f4763ea.mp4
 ## Program preview 2
-https://github.com/yaseen-ai/EZ-SCHOOL-BELL/blob/main/ez2.mp4
+https://user-images.githubusercontent.com/82560247/196038167-4b3c52ca-fee6-4bc5-888f-723156408390.mp4
