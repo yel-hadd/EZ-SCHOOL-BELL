@@ -7,8 +7,9 @@ This Program uses a local SQLITE DB.
 
 to run the program please execute
 
+```bash
 python3 gui.py
-
+```
 ## Program preview 1
 https://user-images.githubusercontent.com/82560247/196038160-785fa49d-77e7-4d25-9838-c7de8f4763ea.mp4
 ## Program preview 2
